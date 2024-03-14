@@ -1,0 +1,7 @@
+function getDayOfWeek(date) {
+    const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    return daysOfWeek[date.getDay()];
+}
+
+// Example usage:
+console.log(getDayOfWeek(new Date())); // Output: "Monday" (or the current day)
